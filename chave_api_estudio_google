@@ -1,0 +1,8 @@
+AIzaSyA7IvEyFI2navn2UxZ2Y2qS-9AkGPNMu9A
+
+AIzaSyA86Z6DOqZ3-0UlS6Ycl6xqeioS4Ze5MIY
+
+curl \
+  -H 'Content-Type: application/json' \
+  -d '{"contents":[{"parts":[{"text":"Write a story about a magic backpack"}]}]}' \
+  -X POST 'https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=YOUR_API_KEY'
